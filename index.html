@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div id="logo"></div>
+        <div id="title">
+            <h1>BREAKING FREE:</h1>
+            <p>Advocating for a Life Beyond Alcohol</p>  
+        </div>
+    </header>
+    <div class="content">
+        <div class="slogan">
+            <h1>CUT THE <br> HYPE, <br> SIP THE <br> REALITY</h1>
+            <p id="subslogan">Cut the Alcohol Romantization Now!</p>
+        </div>
+
+        <div class="dropdowns">
+            <div id="whole_sign-up" class="sign-up">
+                <button class="noborderbutton" onclick="signupfunction()" id="signup">Sign Up <i id="signup-triangle" class="triangle-down"></i></button>
+                <form id="signupform" onsubmit="return signupformsubmitfunction()">
+                    <input id="name_signup" type="text" value="Name"><br>
+                    <input id="email_signup" type="text" value="Email Address"><br>
+                    <input id="address_signup" type="text" value="Home Address"><br>
+                    <input id="age_signup" type="text" value="Age">
+                    <input id="contact_signup" type="text" value="Contact No."><br>
+                    <input id="username_signup" type="text" value="Username"><br>
+                    <input id="createpassword_signup" type="text" value="Create Password"><br>
+                    <input id="confirmpassword_signup" type="text" value="Confirm Password"><br>
+
+                    <div id="other-signin">
+                        <p>Or, continue with:</p><br>
+                        <div id="container1" class="container">
+                            <div class="google_img"></div>
+                            <p class="other-signin_name">google.com</p>
+                        </div>
+                        <div id="container2" class="container">
+                            <div class="facebook_img"></div>
+                            <p class="other-signin_name">facebook.com</p>
+                        </div>
+                    </div>
+
+                    <button type="submit" id="submitbutton_signup">SIGN UP NOW!</button>
+                </form>
+            </div>
+
+            <br>
+
+            <div id="whole_log-in" class="log-in">
+                <button class="noborderbutton" onclick="loginfunction()" id="login">Log In <i id="login-triangle" class="triangle-down"></i></button>
+
+                <form id="loginform" onsubmit="return loginformsubmitfunction()">
+                    <input id="username_login" type="text" value="Username"><br>
+                    <input id="password_login" type="text" value="Password"><br>
+
+                    <div id="other-login">
+                        <p>Or, continue with:</p><br>
+                        <div id="container3" class="container">
+                            <div class="google_img"></div>
+                            <p class="other-signin_name">google.com</p>
+                        </div>
+                        <div id="container4" class="container">
+                            <div class="facebook_img"></div>
+                            <p class="other-signin_name">facebook.com</p>
+                        </div>
+                    </div>
+
+                    <button type="submit" id="submitbutton_login">LOG IN NOW!</button>
+                </form>
+            </div>
+
+            <br>
+
+            <div class="learn-more">
+                <button class="noborderbutton" onclick="learnmorefunction()" id="learnmore">Learn More <i id="learnmore-triangle" class="triangle-down"></i></button>
+
+                <div id="other-learn-more">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint libero commodi similique pariatur. Suscipit optio voluptate nemo nobis consequuntur deserunt, dolorem ratione, obcaecati sit exercitationem mollitia labore veniam cum deleniti. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam omnis repellat saepe non consectetur quaerat autem, ipsa eius maiores quo consequuntur, aspernatur enim provident velit accusantium ratione itaque, similique blanditiis.</p>
+                </div>
+            </div>
+
+            <br>
+
+            <div class="about-us">
+                <button class="noborderbutton" onclick="aboutusfunction()" id="aboutus">About Us <i id="aboutus-triangle" class="triangle-down"></i></button>
+                <div id="other-about-us">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint libero commodi similique pariatur. Suscipit optio voluptate nemo nobis consequuntur deserunt, dolorem ratione, obcaecati sit exercitationem mollitia labore veniam cum deleniti. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam omnis repellat saepe non consectetur quaerat autem, ipsa eius maiores quo consequuntur, aspernatur enim provident velit accusantium ratione itaque, similique blanditiis.</p>
+                </div>
+            </div>
+
+            <br>
+
+            <div class="contact-us">
+                <button class="noborderbutton" onclick="contactusfunction()" id="contactus">Contact Us <i id="contactus-triangle" class="triangle-down"></i></button>
+                <div id="other-contact-us">
+                    <div id="container5" class="container">
+                        <div class="google_img"></div>
+                        <p class="other-signin_name">google.com</p>
+                    </div>
+                    <div id="container6" class="container">
+                        <div class="facebook_img"></div>
+                        <p class="other-signin_name">facebook.com</p>
+                    </div>
+                    <div id="container7" class="container">
+                        <div class="instagram_img"></div>
+                        <p class="other-signin_name">instagram.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="script.js"></script>
+    </div>
+</body>
+</html>

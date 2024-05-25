@@ -1,0 +1,252 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    margin-left: 0.2vw;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+}
+
+#logo{  /*add your image as "background-image: url([link]);*/
+    border: 1px solid black;
+    border-radius: 50px;
+    height: 50px;
+    width: 50px;
+}
+
+#title{
+    margin-left: 2vw;
+}
+
+.slogan{
+    border-top: 2px solid black; /*edit the number to edit the thickness of the border, the color to change the color*/
+    border-right: 2px solid black; /*edit the number to edit the thickness of the border, the color to change the color*/
+    padding: 30px; 
+    font-size: 36px; /*edit this if it is too small*/
+    width: 77.5vw; /*edit this if it is too big*/
+    height: 77vh; /*edit this if it is too big*/
+}
+
+#subslogan{
+    font-size: 14.5px;
+}
+
+.content{
+    display: flex;
+}
+
+.triangle-down{
+    border: solid black; /*edit this color to change the color of the arrows*/
+    border-width: 0 1px 1px 0; /*edit the two numbers in the middle (make sure they are equal) if the arrow is too thin*/
+    display: inline-block;
+    padding: 5px; /*edit this if the little arrow thing is too small*/
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    margin-bottom: 0.15vw;
+    margin-left: 4vw;
+}
+
+.triangle-up{
+    border: solid black; /*edit this color to change the color of the arrows*/
+    border-width: 0 1px 1px 0; /*edit the two numbers in the middle (make sure they are equal) if the arrow is too thin*/
+    display: inline-block;
+    padding: 5px; /*edit this if the little arrow thing is too small*/
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+    margin-bottom: -0.3vw;
+    margin-left: 4vw;
+}
+
+.dropdowns{
+    margin-left: 1vw; /*edit this if its too far from the main box*/
+}
+
+#login-triangle{
+    margin-left: 4.7vw;
+}
+
+#learnmore-triangle{
+    margin-left: 2.25vw;
+}
+
+#aboutus-triangle{
+    margin-left: 3.37vw;
+}
+
+#contactus-triangle{
+    margin-left: 2.7vw;
+}
+
+.noborderbutton{
+    border: none;
+    font-size: 16px;
+    background-color: white;
+    font-family: 'Times New Roman', Times, serif; 
+}
+
+#signupform{
+    position: absolute;
+    bottom: 30%; /*edit this value if the signup form is too far from its button*/
+    display: none;
+}
+
+#name_signup{
+    width: 15vw; /*edit the widths if they are too big/small to fit in the screen*/
+    margin-bottom: 0.5vw;
+}
+
+#email_signup{
+    width: 15vw;
+    margin-bottom: 0.5vw;
+}
+
+#address_signup{
+    width: 15vw;
+    margin-bottom: 0.5vw;
+}
+
+#age_signup{
+    width: 7.25vw;
+    margin-bottom: 0.5vw;
+}
+
+#contact_signup{
+    width: 7.25vw;
+    margin-bottom: 0.5vw;
+}
+
+#username_signup{
+    width: 15vw;
+    margin-bottom: 0.5vw;
+}
+
+#createpassword_signup{
+    width: 15vw;
+    margin-bottom: 0.5vw;
+}
+
+#confirmpassword_signup{
+    width: 15vw;
+    margin-bottom: 0.5vw;
+}   
+
+#other-signin{
+    border: 1px solid black;
+    padding: 7.5px;
+    margin-bottom: 0.5vw;
+}
+
+.google_img{ /*add your image as "background-image: url([link]); and remove the border once u added the img*/
+    border: 1px solid black;
+    height: 25px;
+    width: 25px;
+    border-radius: 25px;
+    display: inline-block;
+}
+
+.facebook_img{ /*add your image as "background-image: url([link]); and remove the border once u added the img*/
+    border: 1px solid black;
+    height: 25px;
+    width: 25px;
+    border-radius: 25px;
+    display: inline-block;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+}
+
+.other-signin_name{
+    margin-left: 0.5vw;
+}
+
+#container1{
+    margin-bottom: 0.5vw;
+}
+
+#submitbutton_signup{
+    width: 15vw;
+    height: 2vw;
+}
+
+#loginform{
+    position: absolute;
+    bottom: 43%; /*edit this if it is too far from the login button*/
+    display: none;
+}
+
+#username_login{
+    width: 15vw; /*edit the width if its extending a little bit too much*/
+    margin-bottom: 0.5vw;
+}
+
+#password_login{
+    width: 15vw;
+    margin-bottom: 0.5vw;
+}
+
+#other-login{
+    border: 1px solid black;
+    padding: 7.5px;
+    margin-bottom: 0.5vw;
+}
+
+#container3{
+    margin-bottom: 0.5vw;
+}
+
+#container4{
+    margin-bottom: 0.5vw;
+}
+
+#submitbutton_login{
+    width: 15vw;
+    height: 2vw;
+}
+
+#other-learn-more{
+    margin-top: 1.5vw;
+    border: 1px solid black;
+    padding: 7.5px;
+    margin-bottom: 0.5vw;
+    width: 15vw;
+    display: none;
+}
+
+#other-about-us{
+    margin-top: 1.5vw;
+    border: 1px solid black;
+    padding: 7.5px;
+    margin-bottom: 0.5vw;
+    width: 15vw;
+    display: none;
+}
+
+#other-contact-us{
+    margin-top: 1.5vw;
+    border: 1px solid black;
+    padding: 7.5px;
+    margin-bottom: 0.5vw;
+    width: 15vw;
+    display: none;
+}
+
+#container5{
+    margin-bottom: 0.5vw;
+}
+
+#container6{
+    margin-bottom: 0.5vw;
+}
+
+.instagram_img{ /*add your image as "background-image: url([link]); and remove the border if you added your image*/
+    border: 1px solid black;
+    height: 25px;
+    width: 25px;
+    border-radius: 25px;
+    display: inline-block;
+}
